@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-    ami           = "ami-03f4878755434977f"  
+    ami           = "ami-0a0f1259dd1c90938"  
     instance_type = "t2.micro"
     subnet_id = "subnet-0d03a3c3128dddbec"
     key_name = "Jenkins"
