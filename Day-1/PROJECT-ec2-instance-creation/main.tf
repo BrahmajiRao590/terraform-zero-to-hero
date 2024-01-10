@@ -5,6 +5,6 @@ provider "aws" {
 resource "aws_instance" "example" {
     ami           = "ami-0c7217cdde317cfec"  
     instance_type = "t2.micro"
-    subnet_id = "subnet-00ef9e32e56f37937"
+    subnet_id = "subnet-0685dec2e05c82782"
     key_name = "jenkins"
 }
