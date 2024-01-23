@@ -3,10 +3,12 @@ description = "value for the ami"
 }
 
 variable "aws_instance_type" {
-description = "value for the instance type"
+description = "value for the instance_type"
 default = "t2.micro"
 }
 
 variable "subnet_id" {
-description = "value for the sunet id"
+description = "value for the sunet_id"
 }
+
+
