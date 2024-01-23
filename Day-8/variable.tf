@@ -8,7 +8,7 @@ default = "t2.micro"
 }
 
 variable "subnet_id" {
-description = "value for the sunet_id"
+description = "value for the subnet_id"
 }
 
 
